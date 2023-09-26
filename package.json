@@ -1,0 +1,11 @@
+{
+  "name": "sdi-blended-project1-scaffold",
+  "version": "1.0.0",
+  "description": "This is a web based implementation of the popular card game Blackjack, it is utitlizing HTML, CSS, and Javascript to run the application itself and the [Deck of Cards API](https://deckofcardsapi.com) is being used to provide the deck.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Christian Hochadel",
+  "license": "ISC"
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="./images/favicon-32x32.png">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body style="background-image: url('https://t3.ftcdn.net/jpg/04/61/21/46/360_F_461214675_2AixWpR2TqYr0jwDPrt1QvGJBSePq4z6.jpg')">
+    <center>
+        <div class="mainPage">
+            <div class="banner" id="mainBanner">
+                <h1 class="Title" id="mainTitle">Good Luck!</h1>
+            </div>
+            <div class="border">Dealers Hand:</div>
+            <div class="cardContainer" id="ComputerPlayer">
+                <div class="card" id="cardcpPosition1"></div>
+                <div class="card" id="cardcpPosition2"></div>
+            </div>
+            <div class="dealer-score" id="dealerScore">Dealer Score: 0</div>
+            <div class="deckContainer" id="deckContainer">
+                <img src="https://www.deckofcardsapi.com/static/img/back.png" class="card" id="deck"></img>
+            </div>
+            <div class="border">Your Hand:</div>
+            <div class="cardContainer" id="User">
+                <div class="card" id="cardUserPosition1"></div>
+                <div class="card" id="cardUserPosition2"></div>
+            </div>
+            <div class="border" id="borderContainer">
+                <div class="border" id="message"></div>
+            </div>
+        </center>
+            <div class="buttonContainer">
+                <button class="button" id="playButton">Play</button>
+                <button class="button" id="quitButton">Reset</button>
+                <button class="button" id="standButton">Stand</button>
+                <button class="button" id="doubleDownButton">Double down</button>
+                <button class="button" id="hitButton">Hit</button>
+            </div>
+            <div class="dealer-score" id="dealerScore">Dealer Score: 0</div>
+            <div class="player-score" id="playerScore">Player Score: 0</div>
+            
+        </div>
+        <script src="./index.js"></script>
+</body>
+</html>
