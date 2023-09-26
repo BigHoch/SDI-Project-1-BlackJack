@@ -2,8 +2,8 @@
 
 ## Summary
 
-This is a web based implementation of the popular card game Blackjack, it is utitlizing HTML, CSS, and Javascript to run the application itself and the [Deck of Cards API](https://deckofcardsapi.com) is being used to provide the deck.
-The Dealer Score and PlayerScore functions are not operation at this time and will be added at a later date. They have no effect on the the other functions of the game.
+This is a web based implementation of the popular card game Blackjack, it is utitlizing HTML, CSS, and Javascript to run the application and the [Deck of Cards API](https://deckofcardsapi.com) is being used to provide the deck.
+The Dealer Score and PlayerScore functions are not operational at this time and will be added at a later date. They have no effect on the the other functions of the game.
 
 ## Installation instructions
 
